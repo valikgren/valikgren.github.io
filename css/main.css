@@ -130,6 +130,13 @@ header a:hover {
 .develup svg{
     height: 50px;
 }
+.left.selfllery{
+    height: 70px;
+}
+.left.selfllery img{
+    max-width: 100%;
+    max-height: 100%;
+}
 .experience .row:after{
     content: '';
     position: absolute;
