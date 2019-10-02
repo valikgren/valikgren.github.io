@@ -10,7 +10,7 @@ html, body {
     font-weight: 400;
 }
 body{
-    background: #f9f9f9;
+    background: #fff;
 }
 a {
     text-decoration: none;
@@ -61,7 +61,7 @@ header a:hover {
 .title{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     padding: 20px 0;
 }
 .title>.left{
@@ -69,6 +69,15 @@ header a:hover {
 }
 .title .grey{
     /*margin-left: 30px;*/
+}
+.specialization{
+    font-size: 46px;
+    margin-bottom: 0;
+}
+.main-skills{
+    margin-top: 0;
+    font-weight: 400;
+    font-size: 38px;
 }
 .ava {
     border-radius: 50%;
@@ -89,22 +98,34 @@ header a:hover {
 .title>.right .row{
     width: 250px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
-}
-.title>.right .row .left{
-    width: 50px;
+    line-height: 1;
 }
 .title>.right img{
-    width: 40px;
+    width: 22px;
+    margin-right: 15px;
 }
 .title>.right .row .right{
     width: 190px;
+    font-weight: 500;
 }
 .title>.right .row{
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
+.info .left{
+    font-weight: 400;
+}
+
+.about-me_text{
+    line-height: 1.5;
+}
+
+.about-me_text__link{
+    color: #4267b2;
+    border-bottom: 1px solid;
+}
 
 .experience{
     border-top: 1px solid #6b7886;
