@@ -192,6 +192,16 @@ header a:hover {
     border-bottom: 1px solid #6b7886;
     padding: 20px 0;
 }
+.skills-wrap{
+    display: flex;
+    justify-content: flex-start;
+}
+.skills-wrap .col{
+    margin-right: 50px;
+}
+.skills-wrap .col:nth-last-child(1){
+    margin-right: 0;
+}
 .skills ul{
     padding-left:0;
 }
