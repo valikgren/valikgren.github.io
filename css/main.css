@@ -109,6 +109,7 @@ header a:hover {
 .title>.right .row .right{
     width: 190px;
     font-weight: 500;
+    font-size: 14px;
 }
 .title>.right .row{
     margin-top: 20px;
