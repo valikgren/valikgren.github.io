@@ -82,6 +82,9 @@ header a:hover {
 .title .info {
     margin-left: 24px;
 }
+.title .info h4:nth-child(1){
+    margin-top: 0;
+}
 .main-skills{
     margin-top: 0;
     font-weight: 400;
@@ -90,6 +93,7 @@ header a:hover {
 .ava-wrap {
     display: flex;
     justify-content: flex-start;
+    align-items: center;
 }
 .ava {
     border-radius: 50%;
@@ -101,6 +105,9 @@ header a:hover {
     justify-content: flex-start;
     align-items: center;
     line-height: 1;
+}
+.title>.right .row i {
+    margin-right: 12px;
 }
 .title>.right img{
     width: 20px;
