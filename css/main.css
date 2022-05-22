@@ -75,36 +75,25 @@ header a:hover {
     align-items: flex-start;
     padding: 20px 0;
 }
-.title>.left{
-    width: 350px;
-}
-.title .grey{
-    /*margin-left: 30px;*/
-}
 .specialization{
     font-size: 46px;
     margin-bottom: 0;
+}
+.title .info {
+    margin-left: 24px;
 }
 .main-skills{
     margin-top: 0;
     font-weight: 400;
     font-size: 38px;
 }
+.ava-wrap {
+    display: flex;
+    justify-content: flex-start;
+}
 .ava {
     border-radius: 50%;
     width: 215px;
-}
-.ava-info{
-    display: flex;
-    justify-content: space-between;
-    width: 215px;
-}
-.ava-info p{
-    color: #525252;
-    font-weight: 300;
-}
-.title>.right{
-    width: 360px;
 }
 .title>.right .row{
     width: 250px;
