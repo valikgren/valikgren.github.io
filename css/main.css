@@ -138,6 +138,7 @@ header a:hover {
 }
 
 .about-me_text-inner {
+    margin-top: 0;
     margin-bottom: 5px;
 }
 .about-me_text-inner:nth-last-child(1) {
