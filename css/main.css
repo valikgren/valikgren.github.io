@@ -144,6 +144,7 @@ header a:hover {
 .about-me_text-inner {
     margin-top: 0;
     margin-bottom: 5px;
+    font-weight: 300;
 }
 .about-me_text-inner:nth-last-child(1) {
     margin-bottom: 0;
