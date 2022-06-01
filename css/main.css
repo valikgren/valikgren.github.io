@@ -135,6 +135,10 @@ header a:hover {
     line-height: 1.5;
     font-size: 15px;
     letter-spacing: 0.2px;
+    font-weight: 300;
+}
+.about-me_text strong {
+    font-weight: 500;
 }
 
 .about-me_text-inner {
